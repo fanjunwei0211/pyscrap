@@ -15,7 +15,7 @@ if __name__ == '__main__':
     page_text = response.text
     print(page_text)
 
-    with open('./sougou.html', 'w', encoding='utf-8') as fp:
+    with open('sougou.html', 'w', encoding='utf-8') as fp:
         fp.write(page_text)
 
     print("Done!")

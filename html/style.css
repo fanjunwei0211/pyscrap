@@ -1,0 +1,57 @@
+body {
+  background-image: url("../img/boy.jpeg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  font-size: 100%;
+}
+h1 {
+  background-color: #517dcf;
+  text-align: center;
+}
+p {
+  background-color: #f7f8f8;
+  text-indent: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+p.normal {
+  font-variant: normal;
+}
+p.small {
+  font-variant: small-caps;
+}
+
+div {
+  background-color: #b0c4de;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+a:link,
+a:visited {
+  display: block;
+  font-weight: bold;
+  color: #e61515;
+  background-color: #98bf21;
+  width: 120px;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff00ff;
+  background-color: #1943b6;
+} /* 鼠标移动到链接上 */
+a:active {
+  color: #ff002b;
+  background-color: #1a5207;
+} /* 鼠标点击时 */
+/* font-size:30px;
+上面的例子可以在 Internet Explorer 9, Firefox, Chrome, Opera, 和 Safari 中通过缩放浏览器调整文本大小。
+
+虽然可以通过浏览器的缩放工具调整文本大小，但是，这种调整是整个页面，而不仅仅是文本 */
