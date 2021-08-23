@@ -1,5 +1,1 @@
-<html>
-  <nav></nav>
-  <div> </div>
-  <div></div>
-</html>;
+alert('Hello, world'); // 观察执行效果
